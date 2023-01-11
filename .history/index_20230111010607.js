@@ -195,7 +195,7 @@ function displayNews() {
     link.className = "btn btn-dark";
     link.setAttribute("target", "_blank");
     link.href = news.url;
-    link.innerHTML = "Ler mais";
+    link.innerHTML = "Read more";
 
     cardBody.appendChild(newsHeading);
     cardBody.appendChild(dateHeading);
